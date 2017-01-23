@@ -16,7 +16,7 @@ minTrajectoryLenght = 150;
 dataTable = getTrajectoryPairs(trajectory_data, lane, minTrajectoryLenght);
 
 % Print the trajectory for the first pair
-plotTable = dataTable(find(dataTable(:,1)==1),:);
+plotTable = dataTable(find(dataTable(:,1)==pair),:);
 
 figure,
 % Plot leader vehicle trajectory 
