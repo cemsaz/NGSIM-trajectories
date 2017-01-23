@@ -1,4 +1,4 @@
-This repository contains MATLAB code to process NGSIM I-80 trajectory dataset and extract leader-follower trajectory pairs. These pairs can be used to analyze driving behaviors. 
+This repository contains MATLAB code to process NGSIM I-80 trajectory dataset and extract leader-follower trajectory pairs. These pairs can be used to analyze driving behaviors and build car following models. 
 
 Steps:
 - Download the data from NGSIM website. Go to https://www.its-rde.net/index.php/data/searchdata Create an account and search for the data I-80. Download the vehicle trajectory data. RECONSTRUCTED trajectories-400-0415_NO MOTORCYCLES.csv is used in this project. 
